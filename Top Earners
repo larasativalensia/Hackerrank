@@ -1,0 +1,1 @@
+SELECT (months*salary) as total, count(distinct employee_id) from Employee group by total order by total desc limit 1
